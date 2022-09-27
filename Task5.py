@@ -5,10 +5,9 @@
 
 import math
 
-distance = 0
 x1 = int(input('Координата Х первой точки: '))
 y1 = int(input('Координата Y первой точки: '))
 x2 = int(input('Координата Х второй точки: '))
 y2 = int(input('Координата Y второй точки: '))
 
-print(round(math.sqrt((x2-x1)**2+(y2-y1)**2), 2))
+print(f'Расстояние между этими точками равно {round(math.sqrt((x2-x1)**2+(y2-y1)**2), 2)}')
